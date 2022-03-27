@@ -11,6 +11,7 @@
   inputs.src-eth_trie-master.ref   = "refs/heads/master";
   inputs.src-eth_trie-master.owner = "status-im";
   inputs.src-eth_trie-master.repo  = "nim-eth-trie";
+  inputs.src-eth_trie-master.dir   = "";
   inputs.src-eth_trie-master.type  = "github";
   
   inputs."rlp".owner = "nim-nix-pkgs";
