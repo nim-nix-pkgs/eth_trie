@@ -7,7 +7,7 @@
   "license": "Apache License 2.0",
   "web": "https://github.com/status-im/nim-eth-trie",
   "refs": [
-    "fatal: unable to access 'https://github.com/status-im/nim-eth-trie/': Could not resolve host: github.com",
+    "fatal: unable to access 'https://github.com/status-im/nim-eth-trie/': Couldn't connect to server",
     ""
   ],
   "heads": []
