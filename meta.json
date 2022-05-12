@@ -7,8 +7,71 @@
   "license": "Apache License 2.0",
   "web": "https://github.com/status-im/nim-eth-trie",
   "refs": [
-    "fatal: unable to access 'https://github.com/status-im/nim-eth-trie/': Couldn't connect to server",
+    "refs/heads/emptyrlp",
+    "refs/heads/master",
+    "refs/heads/module-renames",
+    "refs/heads/refactor-rlp",
+    "refs/heads/transactions",
     ""
   ],
-  "heads": []
+  "heads": [
+    {
+      "name": "eth_trie",
+      "version": "1.0.0",
+      "author": "Status Research & Development GmbH",
+      "desc": "Merkle Patricia Tries as specified by Ethereum",
+      "license": "Apache License 2.0",
+      "skipDirs": [
+        "tests"
+      ],
+      "skipFiles": [],
+      "skipExt": [],
+      "installDirs": [],
+      "installFiles": [],
+      "installExt": [],
+      "requires": [
+        {
+          "name": "nim",
+          "str": ">= 0.18.1",
+          "ver": {
+            "kind": "verEqLater",
+            "ver": "0.18.1"
+          }
+        },
+        {
+          "name": "rlp",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        },
+        {
+          "name": "nimcrypto",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        },
+        {
+          "name": "ranges",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        },
+        {
+          "name": "rocksdb",
+          "str": "any version",
+          "ver": {
+            "kind": "verAny"
+          }
+        }
+      ],
+      "bin": [],
+      "binDir": "",
+      "srcDir": "",
+      "backend": "c",
+      "ref": "refs/heads/master"
+    }
+  ]
 }
