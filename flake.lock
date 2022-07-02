@@ -16,11 +16,11 @@
       },
       "locked": {
         "dir": "master",
-        "lastModified": 1652367083,
-        "narHash": "sha256-eW6vksmLnwVIJjmHqIWnfmg1aazJBiZO5RkiTgSn2Ks=",
+        "lastModified": 1656302705,
+        "narHash": "sha256-ZSqXUgIMl43YZPCWYexAba6iHyqnNUQzGbXv/XkKGdQ=",
         "owner": "nim-nix-pkgs",
         "repo": "eth_trie",
-        "rev": "67caa2481c42c101622a9e16fbb1ffdd75a4ccb7",
+        "rev": "04e94e9c0766a965c61b139fb0afb8fc13772bf2",
         "type": "github"
       },
       "original": {
